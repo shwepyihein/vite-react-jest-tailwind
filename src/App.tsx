@@ -1,9 +1,8 @@
-import { useState } from "react"
-import reactLogo from "./assets/react.svg"
-import "./App.css"
+import { useState } from 'react';
+import './App.css';
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
   return (
     <div className="min-h-screen flex justify-center items-center">
@@ -11,7 +10,7 @@ function App() {
         Install & Setup Vite + React + Typescript + Tailwind CSS 3 +jest
       </h1>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
